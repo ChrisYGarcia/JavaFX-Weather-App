@@ -136,7 +136,7 @@ public class App extends Application {
                                 grid.getChildren().add(weatherConditionlbl);
                                 
                                 // Loading up API URL to get data
-                                String API_KEY = "ENTER_YOUR_API_HERE";
+                                String API_KEY = "ENTER_YOUR_API_KEY_HERE";
                                 String urlString = "http://api.openweathermap.org/data/2.5/weather?q=" + cityValue + ","
 							+ countryValue + "&appid=" + API_KEY + "&units=imperial";    
 
